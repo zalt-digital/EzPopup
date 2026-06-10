@@ -1,21 +1,17 @@
 # EzPopup
 
-[![Version](https://img.shields.io/cocoapods/v/EzPopup.svg?style=flat)](https://cocoapods.org/pods/EzPopup)
-[![License](https://img.shields.io/cocoapods/l/EzPopup.svg?style=flat)](https://cocoapods.org/pods/EzPopup)
-[![Platform](https://img.shields.io/cocoapods/p/EzPopup.svg?style=flat)](https://cocoapods.org/pods/EzPopup)
-
 ## What is EzPopup
-If you are struggling in finding a way to show a view or view controller as a pop up on your iOS devices, this pod is for you. With EzPopup, you can show popup easily, like below:
+If you are struggling in finding a way to show a view or view controller as a pop up on your iOS devices, this library is for you. With EzPopup, you can show popup easily, like below:
 
 ![Custom alert at center](Images/custom-alert-at-center.png)
 ![Custom picker at bottom](Images/custom-picker-at-bottom.png)
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project, clone the repo and open `Example/EzPopup.xcodeproj`. It references the library as a local Swift package, so Xcode resolves it automatically.
 
 ## Compatibility
-- iOS 13 and later.
+- iOS 12 and later.
 - Swift 5.1 and later (for earlier Swift version, please use earlier `ImageScrollView` version).
 
 ## Installation
@@ -32,15 +28,6 @@ Or
 File > Swift Packages > Add Package Dependency
 Add https://github.com/huynguyencong/EzPopup.git
 Select "Up to Next Major" with "1.0.0"
-
-### Cocoapods
-
-EzPopup is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'EzPopup'
-```
 
 ## Usage
 Using pop up view controller is very simple:

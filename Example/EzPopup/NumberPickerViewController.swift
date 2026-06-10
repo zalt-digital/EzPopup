@@ -3,7 +3,6 @@
 //  EzPopup_Example
 //
 //  Created by Huy Nguyen on 6/5/18.
-//  Copyright © 2018 CocoaPods. All rights reserved.
 //
 
 import UIKit

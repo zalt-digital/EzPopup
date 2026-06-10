@@ -3,20 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		004F8C9720C695D900BA2856 /* NumberPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F8C9620C695D900BA2856 /* NumberPickerViewController.swift */; };
 		00E0DE3220C5275600CD7F3D /* CustomAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E0DE3120C5275600CD7F3D /* CustomAlertViewController.swift */; };
-		4C37678759C1C14008EF7D33 /* Pods_EzPopup_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823D63696653032CBE0FA091 /* Pods_EzPopup_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* MainViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		6C558C18019D37CA164F8DBD /* Pods_EzPopup_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB276F86225CCA6190EED63 /* Pods_EzPopup_Example.framework */; };
+		AABB00000000000000000004 /* EzPopup in Frameworks */ = {isa = PBXBuildFile; productRef = AABB00000000000000000002 /* EzPopup */; };
+		AABB00000000000000000005 /* EzPopup in Frameworks */ = {isa = PBXBuildFile; productRef = AABB00000000000000000003 /* EzPopup */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +32,6 @@
 /* Begin PBXFileReference section */
 		004F8C9620C695D900BA2856 /* NumberPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPickerViewController.swift; sourceTree = "<group>"; };
 		00E0DE3120C5275600CD7F3D /* CustomAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertViewController.swift; sourceTree = "<group>"; };
-		0198EE9385313B447CB4D1B3 /* Pods-EzPopup_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EzPopup_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-EzPopup_Example/Pods-EzPopup_Example.release.xcconfig"; sourceTree = "<group>"; };
 		260EC5292274C33C8A09DEC3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* EzPopup_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EzPopup_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,12 +44,6 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6A3F4FD6A92F7E23AD03BD5A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		75B05987AE35A44C0AB0E613 /* Pods-EzPopup_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EzPopup_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EzPopup_Tests/Pods-EzPopup_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		823D63696653032CBE0FA091 /* Pods_EzPopup_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EzPopup_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E2B852576A0CB167B6C2BDA /* Pods-EzPopup_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EzPopup_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EzPopup_Tests/Pods-EzPopup_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AA2B60DF018EFAE0C969258E /* EzPopup.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EzPopup.podspec; path = ../EzPopup.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CE9107558C6223DE192A70F2 /* Pods-EzPopup_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EzPopup_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EzPopup_Example/Pods-EzPopup_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EDB276F86225CCA6190EED63 /* Pods_EzPopup_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EzPopup_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C558C18019D37CA164F8DBD /* Pods_EzPopup_Example.framework in Frameworks */,
+				AABB00000000000000000004 /* EzPopup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C37678759C1C14008EF7D33 /* Pods_EzPopup_Tests.framework in Frameworks */,
+				AABB00000000000000000005 /* EzPopup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,12 +78,10 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				607FACF51AFB993E008FA782 /* Podspec Metadata */,
+				607FACF51AFB993E008FA782 /* Project Metadata */,
 				607FACD21AFB9204008FA782 /* Example for EzPopup */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				701D7F242A3444976579720F /* Pods */,
-				80F4CE514A886B0C5C08C716 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,34 +134,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
+		607FACF51AFB993E008FA782 /* Project Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				AA2B60DF018EFAE0C969258E /* EzPopup.podspec */,
 				260EC5292274C33C8A09DEC3 /* README.md */,
 				6A3F4FD6A92F7E23AD03BD5A /* LICENSE */,
 			);
-			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		701D7F242A3444976579720F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CE9107558C6223DE192A70F2 /* Pods-EzPopup_Example.debug.xcconfig */,
-				0198EE9385313B447CB4D1B3 /* Pods-EzPopup_Example.release.xcconfig */,
-				75B05987AE35A44C0AB0E613 /* Pods-EzPopup_Tests.debug.xcconfig */,
-				9E2B852576A0CB167B6C2BDA /* Pods-EzPopup_Tests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		80F4CE514A886B0C5C08C716 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				EDB276F86225CCA6190EED63 /* Pods_EzPopup_Example.framework */,
-				823D63696653032CBE0FA091 /* Pods_EzPopup_Tests.framework */,
-			);
-			name = Frameworks;
+			name = "Project Metadata";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,17 +150,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "EzPopup_Example" */;
 			buildPhases = (
-				019C18F8B560FAE1A2E181FB /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				680573D5E84CCDFE4F0659F1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = EzPopup_Example;
+			packageProductDependencies = (
+				AABB00000000000000000002 /* EzPopup */,
+			);
 			productName = EzPopup;
 			productReference = 607FACD01AFB9204008FA782 /* EzPopup_Example.app */;
 			productType = "com.apple.product-type.application";
@@ -199,7 +170,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "EzPopup_Tests" */;
 			buildPhases = (
-				CA68EDA1A8AD10A6BC8936EB /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -210,6 +180,9 @@
 				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
 			);
 			name = EzPopup_Tests;
+			packageProductDependencies = (
+				AABB00000000000000000003 /* EzPopup */,
+			);
 			productName = Tests;
 			productReference = 607FACE51AFB9204008FA782 /* EzPopup_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -222,7 +195,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 1020;
-				ORGANIZATIONNAME = CocoaPods;
+				ORGANIZATIONNAME = EzPopup;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -237,7 +210,7 @@
 				};
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "EzPopup" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -246,6 +219,9 @@
 				Base,
 			);
 			mainGroup = 607FACC71AFB9204008FA782;
+			packageReferences = (
+				AABB00000000000000000001 /* XCLocalSwiftPackageReference ".." */,
+			);
 			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -275,63 +251,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		019C18F8B560FAE1A2E181FB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-EzPopup_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		680573D5E84CCDFE4F0659F1 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EzPopup_Example/Pods-EzPopup_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/EzPopup/EzPopup.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EzPopup.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EzPopup_Example/Pods-EzPopup_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CA68EDA1A8AD10A6BC8936EB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-EzPopup_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		607FACCC1AFB9204008FA782 /* Sources */ = {
@@ -431,7 +350,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -480,7 +399,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -490,17 +409,19 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE9107558C6223DE192A70F2 /* Pods-EzPopup_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = DEC5EH4254;
 				INFOPLIST_FILE = EzPopup/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -511,17 +432,19 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0198EE9385313B447CB4D1B3 /* Pods-EzPopup_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = DEC5EH4254;
 				INFOPLIST_FILE = EzPopup/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -532,8 +455,8 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75B05987AE35A44C0AB0E613 /* Pods-EzPopup_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = DEC5EH4254;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -543,9 +466,13 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -554,16 +481,20 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E2B852576A0CB167B6C2BDA /* Pods-EzPopup_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = DEC5EH4254;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -601,6 +532,24 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		AABB00000000000000000001 /* XCLocalSwiftPackageReference ".." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AABB00000000000000000002 /* EzPopup */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = EzPopup;
+		};
+		AABB00000000000000000003 /* EzPopup */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = EzPopup;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
 }
