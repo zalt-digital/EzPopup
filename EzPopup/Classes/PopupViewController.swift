@@ -65,7 +65,7 @@ open class PopupViewController: UIViewController {
     open var backgroundAlpha: CGFloat = 0.2
     
     /// Background color, default is black
-    open var backgroundColor = UIColor.label
+    open var backgroundColor = UIColor.labelCompat
     
     /// Allow tap outside popup to dismiss, default is true
     open var canTapOutsideToDismiss = true
@@ -177,7 +177,7 @@ open class PopupViewController: UIViewController {
         
         if shadowEnabled {
             containerView.layer.shadowOpacity = 0.2
-            containerView.layer.shadowColor = UIColor.label.cgColor
+            containerView.layer.shadowColor = UIColor.labelCompat.cgColor
             containerView.layer.shadowRadius = 3
         }
     }
